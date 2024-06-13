@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riveras S.A. de C.V.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="Vista/css/Indexstyle.css">
+    <link rel="stylesheet" href="Vista/css/navbar&footer.css">
+</head>
+<body>
+
+   <!-- BARRA DE NAVEGACION -->
+<header class="header">
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="Vista/img/logo.png" alt="Logo CR" class="logo">
+            <div class="nombre_logo">
+                <h2 class="nombre_logo_1">RIVERAS</h2>
+                <h6 class="nombre_logo_2">S.A. DE. C.V.</h6>
+            </div>
+        </div>
+        <input type="checkbox" id="menu_hamburguesa" class="menu_hamburguesa">
+        <label class="labe_hamburguesa" for="menu_hamburguesa">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="list_icon" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </label>
+        <ul class="ul_links">
+            <li class="li_links"><a href="Modelo/nosotros.html" class="link">Nosotros</a></li>
+            <li class="li_links"><a href="#btservicios" class="link">Servicios</a></li>
+            <li class="li_links"><a href="#btproyectos" class="link">Proyectos</a></li>
+            <li class="li_links"><a href="#btfooter" class="link">Contáctanos</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- FIN DE BARRA DE NAVEGACION -->
+
+
+    <!-- INTRODCCUIN DE LA PAGINA Y EMPRESA -->
+<section class="intro">
+    <div class="intro-text">
+        <h1>Riveras S.A. de C.V.</h1>
+        <p>Somos una empresa especializada en alquiler de equipos, instalación de tuberías, fabricación, montajes de tanques  y estructuras, aislamiento térmico y soldadura por arco TIG y MIG.</p>
+    </div>
+    <img src="Vista/img/construccion5.jpg" alt="Imagen principal">
+</section>
+<!-- FIN INTRODCCUIN DE LA PAGINA Y EMPRESA -->
+
+
+    <!-- BLOQUE DE SERVICIOS -->
+<section id="btservicios" class="services">
+    <h2 class="titulos">Nuestros Servicios</h2>
+    <div class="service-container">
+        <div class="service">
+            <img src="Vista/img/contratacion.jpg" alt="Contratistas">
+            <h3>Contratistas</h3>
+            <p>Soluciones en acero.</p>
+            <a href="Modelo/contrataciones.html">Cotiza con Nosotros</a>
+        </div>
+        <div class="service">
+            <img src="Vista/img/Alquiler.jpg" alt="Alquileres">
+            <h3>Alquileres</h3>
+            <p>Soluciones de equipos.</p>
+            <a href="Modelo/alquileres.html">Cotiza con Nosotros</a>
+        </div>
+    </div>
+</section>
+<!-- FIN DE BLOQUE DE SERVICIOS -->
+
+
+    <!-- CARRUSEL -->
+    <h2 id="btproyectos" class="titulos">Conoce algunos de nuestros proyectos</h2>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Vista/img/img1-2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Queiroz Galvaos</h5>
+                    <p>Preparación y montaje de virolas en proyecto “Ampliación presa 5 de Noviembre“</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Vista/img/img2-2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Energias del Pacifico</h5>
+                    <p>Montaje y soldadura de ductos de gases de calderas. <br> Montaje y soldadura de soportes y tubería en área de calderas.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Vista/img/img3-2.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Fertica</h5>
+                    <p>Cambio de estructura e instalación de láminas en paredes poniente y sur de planta complejo.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- FIN DEL HTML CARRUSEL -->
+
+
+<!-- GOOGLE MAPS -->
+    <section class="location">
+        <h2>Nuestra Ubicación</h2>
+        <p>Puedes encontrarnos en: Polígono G, Cantón Loma del Muerto, Lotificación Los Altos del Río, Lote 4 y 5, Sonsonate, Sonsonate.</p>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3875.7715730047394!2d-89.720456!3d13.732275!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f62b9dce130e741%3A0xd78b34e939149128!2sRIVERAS%20S.A.%20DE%20C.V.!5e0!3m2!1ses-419!2ssv!4v1717712134135!5m2!1ses-419!2ssv" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- FIN GOOGLE MAPS -->
+
+   <!-- FOOTER -->
+<footer id="btfooter" class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src="./Vista/img/logo.png" alt="Logo de la Empresa">
+        </div>
+        <div class="footer-social">
+            <a href="https://www.facebook.com/profile.php?id=100083437266198" target="_blank" class="social-link">
+                <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook Riveras S.A. DE C.V." class="social-icon">
+                <span>Riveras S.A. de C.V.</span>
+            </a>
+            <a href="https://www.instagram.com/equiporiveras.sv/" target="_blank" class="social-link">
+                <img src="https://img.icons8.com/fluent/48/000000/instagram-new.png" alt="Instagram Riveras Alquiler de Equipos" class="social-icon">
+                <span>Riveras Alquiler de Equipos</span>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100063770133255" target="_blank" class="social-link">
+                <img src="https://img.icons8.com/fluent/48/000000/facebook-new.png" alt="Facebook Riveras Alquiler de Equipos" class="social-icon">
+                <span>Riveras Alquiler de Equipos</span>
+            </a>
+            
+        </div>
+        <div class="footer-divider"></div>
+        <div class="footer-contact">
+            <div class="footer-address">
+                <p>Puedes encontrarnos en:</p>
+                <p>Poligono G, Canton Loma del Muerto, Lotificación Los Altos del Rio, Lote 4 y 5, Sonsonate, Sonsonate.</p>
+            </div>
+            <div class="footer-contact-info">
+                <p>Teléfonos: +503 1234 5678, +503 8765 4321</p>
+                <p>Email: <a href="mailto:direccionesriveras@gmail.com">direccionesriveras@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- FIN DEL FOOTER -->
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

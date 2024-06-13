@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(27, 27, 27);
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.history {
+    background-color: #e0e0e0;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.history p{
+    text-align: justify;
+    margin: 40px;
+}
+
+.mission-vision .content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #e0e0e0;
+    width: 85.5%;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;   
+}
+
+.mission-vision p{
+    text-align: justify;
+    margin: 20px;
+}
+.mission, .vision {
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    border-radius: 7px;
+    margin: 40px;
+}
+
+.mission:hover, .vision:hover {
+    transform: translateY(-10px);
+}
+
+.mission img, .vision img, .value img {
+    width: 100%;
+    max-width: 100px;
+    margin: 10px auto;
+    display: block;
+}
+
+.values {
+    background-color: #e0e0e0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.values-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.values{
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.value {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    border-radius: 7px;
+
+}
+
+.value:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 768px) {
+    .mission-vision .content, .values-content {
+        flex-direction: column;
+    }
+}
